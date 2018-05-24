@@ -1,15 +1,22 @@
 @import "colors";
 
 #randomInt {
-    background-color: $main;
-    border: 1px solid black;
-    color: white;
-    padding: 5px;
+  background-color: $main;
+  border: 1px solid black;
+  color: white;
+  padding: 5px;
+  font-size: 1em;
 }
 
-#randomRange{
-    background-color: $secondary;
-    border: 1px solid black;
-    color: white;
-    padding: 5px;
+#randomRange {
+  background-color: $secondary;
+  border: 1px solid black;
+  color: white;
+  padding: 5px;
+  font-size: 1em;
+}
+
+body{
+    margin-top: 10%;
+    text-align: center;
 }
