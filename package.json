@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "build:test": "webpack-dev-server --entry ./src/js/app.js --output-filename ./dist/bundle.js --mode development",
     "build": "webpack-dev-server",
     "build:prod": "webpack -p"
   },
