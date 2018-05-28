@@ -1,5 +1,12 @@
 import '../css/main.scss';
+import '../users.html';
+
+
+
+
 import { RandomGenerator } from './random-generator';
+
+const outputAnimation = document.querySelector('#animationContainer');
 
 const outputParagraph = document.querySelector('#outputParagraph');
 
