@@ -4,7 +4,7 @@ import '../users.html';
 
 import { RandomGenerator } from './random-generator';
 
-const outputAnimation = $('#animationContainer');
+//const outputAnimation = $('#animationContainer');
 
 const outputParagraph = $('#outputParagraph');
 
